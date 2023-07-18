@@ -1,6 +1,6 @@
 -   id: go-lint
     name: 'go lint'
-    entry: run-go-lint.sh
+    entry: run-golangci-lint.sh
     files: '\.go$'
     language: 'script'
     description: "Runs `golangci-lint`, requires golang"
